@@ -1,4 +1,5 @@
 import { getWorker } from "external-package";
+//import { getWorker } from "external-package";
 
 export default {
   title: 'libs/worker',
