@@ -1,10 +1,10 @@
-import { play } from "./index";
+import { getWorker } from "external-package";
 
 export default {
   title: 'libs/worker',
 };
 
-export const Example = () => {
-  play();
-  return "HELLO!"
-}
+export const play = function () {
+  console.log("What is?", getWorker());
+};
+
