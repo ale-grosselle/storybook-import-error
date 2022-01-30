@@ -1,0 +1,11 @@
+.idea/
+coverage/
+dist/
+esm/
+node_modules/
+
+.DS_Store
+*.pem
+eslint.xml
+junit.xml
+yarn-error.log
